@@ -37,6 +37,9 @@ function displayMovieNames(movieName){
     console.log(movieList)
 }
 
+//
+
+
 //fetch the first movie on the right side by default
 function fetchFetchirstMovie(){
     fetch(`http://localhost:3000/films/1`)
@@ -46,7 +49,7 @@ function fetchFetchirstMovie(){
     })
 }
 
-//display the first movie ont0 the right side
+//display the first movie onto the right side
 function displayFirstMovie(firstMovie){
     let movieContainer = document.getElementById('rightDiv')
     let availableTickets = parseInt(`${firstMovie.capacity} - ${firstMovie.tickets_sold}`)
