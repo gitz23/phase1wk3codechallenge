@@ -1,0 +1,23 @@
+#mainHeader{
+    text-align: center;
+    color: blue;
+    font-family: 'Caprasimo', cursive;
+    font-size: xx-large;
+} 
+
+#outerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftDiv{
+    text-align: center;
+    flex-basis: 50%;
+    background-color: aqua;
+}
+
+#rightDiv{
+    text-align: center;
+    flex-basis: 50%;
+    background-color: blueviolet;
+}
