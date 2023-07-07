@@ -21,3 +21,8 @@
     flex-basis: 50%;
     background-color: blueviolet;
 }
+
+.imagePoster{
+    height: 400px;
+    width: 300px;
+}
