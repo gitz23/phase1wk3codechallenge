@@ -12,17 +12,35 @@
 
 #leftDiv{
     text-align: center;
-    flex-basis: 50%;
+    flex-basis: 25%;
     background-color: aqua;
 }
 
 #rightDiv{
     text-align: center;
-    flex-basis: 50%;
-    background-color: blueviolet;
+    flex-basis: 75%;
+    background-color: pink;
 }
 
 .imagePoster{
     height: 400px;
     width: 300px;
+}
+
+.details{
+    font-family: 'Caprasimo', cursive;
+    font-size: xx-large;
+}
+
+ul {
+    list-style: none;
+}
+
+.listItems{
+    color: #00009C;
+}
+
+#tickets{
+    font-weight: bolder;
+    font-size: medium;
 }
